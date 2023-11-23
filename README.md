@@ -7,7 +7,7 @@ But instead of showing a picture, it recognizes Chinese and English text, and ou
 The quality of OCR is relatively OK. It's engined by [CnOCR](https://github.com/breezedeus/CnOCR) and densenet_lite_136-gru, db_resnet34 models.
 Offline translation is engined by [Argos Translate](https://github.com/argosopentech/argos-translate) and the quality is much worse comparing to Google Translate for Chinese. But it's enough for a user to take a sense of it anyway. 
 
-![app screenshot](./docs/screenshot.png)
+![app screenshot](docs/screenshot.png)
 
 ## It works on my machine
 I tested it and now use it on one machine which is:
@@ -20,13 +20,14 @@ I tested it and now use it on one machine which is:
 ### Windows 10 and multiple monitors
 It's small, OS-agnostic application. I expect it to run in all operating systems. But if you have multiple monitors configuration, maybe I miscalculate region offsets in Linux and macOS. I saw some other possibilities in ```Tkinter``` instantiation, but it's relative to X11 only.  
 
+# Installation
 1. Read PyTorch manual because versions below will differ by the time of you reads this
 2. Install Python 3.11
 3. Install Cuda if you have NVIDIA
 4. Install PyTorch
 5. Clone the repo
-6. Read CnOCR documentation and fix models in the ```recognition.py``` file if you don't like mine
-7. Sync Python ```requirements.txt```
+6. Read CnOCR documentation and fix models in the [recognition.py](recognition.py#L4) file if you don't like mine
+7. Sync Python project [requirements](requirements.txt)
 8. Run main.py
 
 ## First Run

@@ -1,0 +1,8 @@
+PyQt5~=5.15.10
+cnocr~=2.2.4.2
+argostranslate~=1.9.1
+pinyin~=0.4.0
+mss~=9.0.1
+Pillow~=10.1.0
+opencv-python~=4.8.1.78
+numpy~=1.26.2

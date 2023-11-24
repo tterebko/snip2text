@@ -35,7 +35,7 @@ First start could take 30 min because CnOCR and Argos download its models.
 
 # Technical stack
 1. I took [snipping-tool](https://github.com/harupy/snipping-tool) as a base for snapping UX. UI is done with QT/Tkinter .
-2. [MSS](https://github.com/BoboTiG/python-mss) for screen region grabbing because PIL doesn't work for secondary screens.
+2. [MSS](https://github.com/BoboTiG/python-mss) for screen region grabbing. Because PIL grabber doesn't work for secondary screens.
 3. [CnOCR](https://github.com/breezedeus/CnOCR) for Chinese/English OCR - the core feature of the app.
 4. [pinyin](https://pypi.org/project/pinyin/) to translate Chinese chars to Pinyin.
 5. [Argos Translate](https://github.com/argosopentech/argos-translate) for Chinese to English offline translation.

@@ -1,5 +1,5 @@
 # snip2text
-Python app that allows to snip a region of a screen and automatically recognize text and translate it.
+Python app that allows to snip a region of a screen and automatically recognize Chinese text and translate it.
 
 # Description
 A user can grab a screen region like in any other snipping apps.<br>

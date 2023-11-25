@@ -17,7 +17,7 @@ I tested it and now use it on one machine which is:
 - Cuda 12.1 - not relevant if you switch to OCR CPU models or if you have AMD GPU (see CnOCR documentation)
 - NVIDIA GeForce RTX 2060 GPU - not relevant if you use CPU OCR.
 
-### Windows OS and multiple monitors
+### Support of different OS and multiple monitors
 It's small, OS-agnostic application. I expect it to run in all operating systems. But if you have multiple monitors configuration, maybe I miscalculate region offsets in Linux and macOS. I saw some other possibilities in ```Tkinter``` instantiation, but it's relative to X11 only.
 
 # Installation
